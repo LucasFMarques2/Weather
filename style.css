@@ -36,7 +36,7 @@
   .info {
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
   
     font-size: 30px;
   }
@@ -52,7 +52,7 @@
     flex-direction: column;
   
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     padding: 100px 64px 50px;
   
     background: #ffffff;
