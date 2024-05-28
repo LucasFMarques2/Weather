@@ -6,8 +6,8 @@ Tecnologias utilizadas:
 -JavaScript
 
 APIs utlizadas:
--ViaCEP[link:https://viacep.com.br/]
--Open-meteo[link:https://open-meteo.com/en/docs]
+-[ViaCEP](https://viacep.com.br/)
+-[Open-meteo]([https://open-meteo.com/en/docs])
 
 
 Descrição:
@@ -17,7 +17,8 @@ solicitado informando a latitude e a longitude do local requisitado.
 
 Layout baseado em um projeto do Figman;
 
-Link para visualizar o projeto em funcionamento:[link:https://search-cepweather.netlify.app/]
+Link para visualizar o projeto em funcionamento:
+[Search Weather](https://search-cepweather.netlify.app/)
 
 Projeto desenvolvido por 
 
