@@ -7,7 +7,8 @@ Tecnologias utilizadas:
 
 APIs utlizadas:
 -[ViaCEP](https://viacep.com.br/)
--[Open-meteo]([https://open-meteo.com/en/docs])
+
+-[Open-meteo](https://open-meteo.com/en/docs)
 
 
 Descrição:
