@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>DncWeather</title>
+</head>
+
+<body>
+  <header>
+    <h1>DncWeather</h1>
+    <div>
+      <p>Endereços</p>
+      <p>Previsão do tempo</p>
+    </div>
+  </header>
+
+  <section>
+
+    <div class="info">
+      <h1>Descubra Mais com Precisão:<br> Previsões do Tempo e endereços<br> em tempo real.</h1>
+      <img src="./img/cloud.svg" alt="Imagem de uma nuvem">
+    </div>
+  
+    <form action="">
+      <label for="name">Primeiro nome:</label>
+      <input type="text" id="name" placeholder="Insira seu primeiro nome">
+  
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="Insira seu e-mail">
+  
+      <label for="cep">Digite o CEP</label>
+      <input type="number" id="cep" placeholder="Insira o cep">
+  
+      <p>Digite a latitude e longitude para saber a previsão:</p>
+      <div class="previsaoTempo">
+        <input type="text" id="latitude" placeholder="Latitude">
+        <input type="text" id="longitude" placeholder="Longitude">
+      </div>
+      <button id="sendButton">Acessar</button>
+    </form>
+  
+    <div class="cepHeader hide">
+      <h1>Resultado da busca por CEP:</h1>
+      <img src="/img/loc.svg" alt="imagem de ícone de localização">
+    </div>
+    <div class="infoCep hide">
+      <div id="buscaCep">
+        <p>Logradouro/nome</p>
+        <p>Bairro/Distrito</p>
+        <p>Localidade/UF</p>
+      </div>
+      <div id="resultCep">
+        <p id="rua"></p>
+        <p id="bairro"></p>
+        <p id="uf"></p>
+      </div>
+    </div>
+  
+    <div class="infoCep hide">
+      <h1>Previsão do tempo na região:</h1>
+      <img src="/img/cloud2.svg" alt="Imagem de nuvem">
+    </div>
+    <div class="resultWeather hide">
+      <p id="weather"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Termos de Uso | Política de Privacidade</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
