@@ -6,6 +6,7 @@ Tecnologias utilizadas:
 -JavaScript
 
 APIs utlizadas:
+
 -[ViaCEP](https://viacep.com.br/)
 
 -[Open-meteo](https://open-meteo.com/en/docs)
